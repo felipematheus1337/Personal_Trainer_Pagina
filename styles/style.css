@@ -1,0 +1,195 @@
+body {
+    background: #22252e ;
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -20px;
+}
+#important-text {
+    font-size: 20px;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+    
+} 
+
+#title img{
+width: 200px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+    color: white;
+    
+}
+
+#lista {
+    margin-right: 100px;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    
+    
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 55px;
+    font-family: poppinsmedium;
+  
+    
+}
+
+
+li:hover {
+    background-color: #ebb906;
+    transition: 0.3s all;
+}
+
+span {
+    color: #ebb906;
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+form [type="submit"] {
+ height: 20px;
+ width: 50%;
+ line-height: 0px;
+ color:white;
+ font-weight: bold;
+ margin-bottom: 40px;
+}
+
+form [type="submit"]:hover{
+    cursor:pointer;
+   }
+
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    background-color:rgb(132,14,201);
+    color: white;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-bottom: 80px;
+   
+}
+
+#about-p {
+    font-size: 25px;
+}
+
+#rafa-imagem {
+    border-radius: 20px;
+    border:none;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#servicos-funcional {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-bottom: 80px;
+   
+}
+
+#servicos-title {
+    display: flex;
+    justify-content: center;
+    color:#ebb906;
+    margin-bottom: 100px;
+}
+
+#texto-funcional {
+    margin-bottom: 0px;
+    margin-left: 60px;
+    
+    
+}
+#imagem-treino {
+    border-radius: 20px;
+}
+#tipo-treino {
+    color:#ebb906;
+}
+
+#beneficios-text {
+    line-height: 0px;
+    font-family: poppinsregular;
+}
+
+hr {
+    color: rgb(245, 231, 231);
+    opacity: 0.5;
+}
+
+#servicos-musculacao {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-top: 20px;
+   
+}
+
+#contato {
+    display: flex;
+    
+}
+#contato h3 {
+    text-decoration: none;
+    color:#ebb906;
+}
+
+#contact-text {
+    display: inline;
+}
+
+#contato a {
+    display:block;
+    margin-top: 5px;
+}
+
+
+
+
