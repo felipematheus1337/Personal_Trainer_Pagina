@@ -15,7 +15,7 @@ Javascript
 VisualStudioCode como IDE
 
 Início
-
+<img src="https://github.com/felipematheus1337/Personal_Trainer_Pagina/blob/developer/components/images/showingThePage/inicio.png?raw=true">
 
 
 
