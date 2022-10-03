@@ -1,4 +1,4 @@
-@media screen and (max-width: 760px){
+@media screen and (max-width: 804px){
 
     header{
         flex-direction: column;
@@ -22,7 +22,6 @@
     }
 
     img{
-       display:none;
     }
 
     ul{
@@ -30,12 +29,53 @@
     }
     
     #beneficios-text {
-        
         font-family: poppinsregular;
     }
 
     #contato img {
         display:flex;
+    }
+
+
+    
+
+    #about {
+        display: flex;
+        flex-direction: column;
+       
+        
+    }
+
+    #rafa-imagem {
+        border-radius: 20px;
+        margin: 0 auto;
+    }
+
+    #servicos-funcional {
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    
+    #servicos-title {
+        display: flex;
+        justify-content: center;
+        color:#ebb906;
+        margin-bottom: 30px;
+    }
+
+    #servicos-musculacao {
+        display: flex;
+        flex-direction: column;
+        
+        margin-top: 10px;
+       
+    }
+
+    .gymMenu {
+        width: 250px;
+        height: 250px;
     }
 }
 
@@ -63,9 +103,36 @@
         align-self: center;
     }
 
-    img{
-       display:none;
+    img {
+        width: 300px;
+        height: 300px; 
     }
+    #about {
+        display: flex;
+        flex-direction: column;
+       
+        
+    }
+
+    #rafa-imagem {
+        border-radius: 20px;
+        margin-left: -50px;
+
+    }
+
+    #servicos-funcional {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+    }
+    
+    #servicos-title {
+        display: flex;
+        justify-content: center;
+        color:#ebb906;
+        margin-bottom: 30px;
+    }
+    
 
     ul{
         text-align: center;
@@ -78,5 +145,30 @@
 
     #contato img {
         display:flex;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+#servicos-funcional {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+#servicos-title {
+    display: flex;
+    justify-content: center;
+    color:#ebb906;
+    margin-bottom: 30px;
+}
+
+}
+
+@media screen and (max-width: 520px) {
+    .gymMenu {
+        width: 350px;
+        height: 350px;
     }
 }

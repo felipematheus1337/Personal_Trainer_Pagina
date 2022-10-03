@@ -14,6 +14,7 @@ header {
     align-items: center;
     margin-top: -20px;
 }
+
 #important-text {
     font-size: 20px;
 }
@@ -76,23 +77,6 @@ p {
     font-weight: bold;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-}
-form [type="submit"] {
- height: 20px;
- width: 50%;
- line-height: 0px;
- color:white;
- font-weight: bold;
- margin-bottom: 40px;
-}
-
-form [type="submit"]:hover{
-    cursor:pointer;
-   }
 
 
 input {
@@ -155,7 +139,7 @@ input {
 }
 
 #beneficios-text {
-    line-height: 0px;
+    line-height: 15px;
     font-family: poppinsregular;
 }
 
